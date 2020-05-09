@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         PaystackSdk.setPublicKey("YOUR PUBLIC KEY GOES HERE")
 
+        PaystackSdk.initialize(applicationContext)
+
         button_perform_transaction.setOnClickListener {
             performCharge()
         }

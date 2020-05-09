@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         PaystackSdk.setPublicKey("YOUR PUBLIC KEY GOES HERE")
+
+        button_perform_transaction.setOnClickListener {
+            performCharge()
+        }
     }
 
     /**

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PaystackAndroidIntegration</string>
+
+    <string name="card_number">Card number</string>
+    <string name="cvc">CVC</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="confirm_payment">Confirm</string>
+    <string name="pay_pal">PayPal</string>
 </resources>

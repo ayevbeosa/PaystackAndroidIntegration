@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
     private fun createCardObject(): Card {
         // Get fields
         val cardNum = card_number_edit_text.text.toString().trim()
-        val expiryMonth = cvc_edit_text.text.toString().trim().toInt()
+        val expiryMonth = expiry_month_edit_text.text.toString().trim().toInt()
         val expiryYear = expiry_year_edit_text.text.toString().trim().toInt()
         val cvc: String = cvc_edit_text.text.toString().trim()
 

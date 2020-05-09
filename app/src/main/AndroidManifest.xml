@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="co.paystack.android.PublicKey"
+            android:value="YOUR PUBLIC KEY GOES HERE" />
     </application>
 
 </manifest>
